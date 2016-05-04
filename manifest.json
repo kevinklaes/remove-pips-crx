@@ -1,0 +1,14 @@
+{
+  "name": "Dot Blinder",
+  "description": "Remove the AJB pips from user profiles",
+  "version": "1.0",
+  "background": {
+    "persistent": false,
+    "scripts": ["rm_pips.js"]
+  },
+  "permissions": ["https://*.abandonedjerks.com/*"],
+  "browser_action": {
+    "default_title": "Remove the pips so you can focus on post quality and not quantity."
+  },
+  "manifest_version": 2
+}
